@@ -3,10 +3,10 @@
 """
 用法
 
-    python fontdat_tool.py info    font.dat
-    python fontdat_tool.py decode  font.dat -o font_out/          # 明文bin + json + txt
-    python fontdat_tool.py verify  font.dat                       # 自检 + 回环
-    python fontdat_tool.py encode  font_dat_decrypted.json -o new_font.dat
+    python dat_convert.py info    font.dat
+    python dat_convert.py decode  font.dat -o font_out/          # 明文bin + json + txt
+    python dat_convert.py verify  font.dat                       # 自检 + 回环
+    python dat_convert.py encode  font_dat_decrypted.json -o new_font.dat
 """
 from __future__ import annotations
 
